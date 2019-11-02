@@ -1,0 +1,25 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, #{fade-out($white, .9)} 0%,#{fade-out($white, .7)} 85%,$white 100%), url('../img/bg-cdmx-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+    h2 {
+      max-width: 30rem;
+      font-size: 1.9rem;
+      color:$blue-400 !important;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.pagination-section{
+  .pagination{
+    width: 156px;
+    border-bottom: 1px solid $primary;
+    .page-link {
+        color: $blue-300;
+        border:none;
+        font-size: 1.3rem;
+    }
+  }
+}
