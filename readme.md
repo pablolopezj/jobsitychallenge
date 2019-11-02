@@ -38,3 +38,5 @@ Next excecute the next command $ sudo a2ensite pablo_isaac_lopez.conf
 And restart the apache $ sudo service apache2 reload
 
 If is necessary there is a backup of the database in the root path named jobsitychallenge_01-11-19.sql
+
+I remove the .gitignore the file .env in order to be more easily set the project
